@@ -1,7 +1,7 @@
 
 # Automation-Exercise-Assignment
-## UI Test Automation using Selenium WebDriver + TestNG + Java
-This project contains complete test automation for AutomationExercise.com, built using Java, Selenium, TestNG, Maven. After running and executing the tests, a html test report can be generated, which describes the statuses of each test.
+## Test Automation using Selenium WebDriver + TestNG + Java
+This project contains test automation for AutomationExercise.com which validates the core user authentication and basic website functionality, built using Java, Selenium, TestNG, Maven. After running and executing the tests, a html test report can be generated, which describes the statuses of each test.
 
 The suite automates all 10 test cases provided in the functional requirement specification document. 
 

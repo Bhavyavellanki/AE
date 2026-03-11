@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="6" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-11T10:36:40 IST" name="Suite" finished-at="2026-03-11T10:40:36 IST" duration-ms="236634">
+    <groups>
+    </groups>
+    <test started-at="2026-03-11T10:36:40 IST" name="Test" finished-at="2026-03-11T10:40:36 IST" duration-ms="236634">
+      <class name="com.automationexercise.testcases.TC9_SearchProducts">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercise.testcases.TC9_SearchProducts@29647f75]" started-at="2026-03-11T10:40:12 IST" name="setUp" finished-at="2026-03-11T10:40:15 IST" duration-ms="2392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchProducts()[pri:0, instance:com.automationexercise.testcases.TC9_SearchProducts@29647f75]" started-at="2026-03-11T10:40:15 IST" name="searchProducts" finished-at="2026-03-11T10:40:26 IST" duration-ms="11772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationexercise.testcases.TC9_SearchProducts@29647f75]" started-at="2026-03-11T10:40:26 IST" name="tearDown" finished-at="2026-03-11T10:40:28 IST" duration-ms="1963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationexercise.testcases.TC9_SearchProducts -->
+      <class name="com.automationexercise.testcases.TC6_Contactus">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercise.testcases.TC6_Contactus@13b13b5d]" started-at="2026-03-11T10:39:30 IST" name="setUp" finished-at="2026-03-11T10:39:33 IST" duration-ms="2729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="contactus()[pri:0, instance:com.automationexercise.testcases.TC6_Contactus@13b13b5d]" started-at="2026-03-11T10:39:33 IST" name="contactus" finished-at="2026-03-11T10:39:40 IST" duration-ms="7543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactus -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationexercise.testcases.TC6_Contactus@13b13b5d]" started-at="2026-03-11T10:39:40 IST" name="tearDown" finished-at="2026-03-11T10:39:41 IST" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationexercise.testcases.TC6_Contactus -->
+      <class name="com.automationexercise.testcases.TC10_VerifySubscriptionPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercise.testcases.TC10_VerifySubscriptionPage@3315d2d7]" started-at="2026-03-11T10:40:28 IST" name="setUp" finished-at="2026-03-11T10:40:31 IST" duration-ms="2666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifySubscription()[pri:0, instance:com.automationexercise.testcases.TC10_VerifySubscriptionPage@3315d2d7]" started-at="2026-03-11T10:40:31 IST" name="VerifySubscription" finished-at="2026-03-11T10:40:36 IST" duration-ms="5088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySubscription -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationexercise.testcases.TC10_VerifySubscriptionPage@3315d2d7]" started-at="2026-03-11T10:40:36 IST" name="tearDown" finished-at="2026-03-11T10:40:36 IST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationexercise.testcases.TC10_VerifySubscriptionPage -->
+      <class name="com.automationexercise.testcases.TC3_InvalidLogin">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercise.testcases.TC3_InvalidLogin@3541cb24]" started-at="2026-03-11T10:37:48 IST" name="setUp" finished-at="2026-03-11T10:37:51 IST" duration-ms="2781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginInvalid()[pri:0, instance:com.automationexercise.testcases.TC3_InvalidLogin@3541cb24]" started-at="2026-03-11T10:37:51 IST" name="loginInvalid" finished-at="2026-03-11T10:38:34 IST" duration-ms="42848" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at com.automationexercise.testcases.TC3_InvalidLogin.loginInvalid(TC3_InvalidLogin.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationexercise.testcases.TC3_InvalidLogin@3541cb24]" started-at="2026-03-11T10:38:34 IST" name="tearDown" finished-at="2026-03-11T10:38:34 IST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationexercise.testcases.TC3_InvalidLogin -->
+      <class name="com.automationexercise.testcases.TC2_ValidLogin">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercise.testcases.TC2_ValidLogin@52102734]" started-at="2026-03-11T10:37:07 IST" name="setUp" finished-at="2026-03-11T10:37:09 IST" duration-ms="2666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginValid()[pri:0, instance:com.automationexercise.testcases.TC2_ValidLogin@52102734]" started-at="2026-03-11T10:37:09 IST" name="loginValid" finished-at="2026-03-11T10:37:47 IST" duration-ms="37898" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Logged in as username is not visible expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Logged in as username is not visible expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at com.automationexercise.testcases.TC2_ValidLogin.loginValid(TC2_ValidLogin.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationexercise.testcases.TC2_ValidLogin@52102734]" started-at="2026-03-11T10:37:47 IST" name="tearDown" finished-at="2026-03-11T10:37:48 IST" duration-ms="493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationexercise.testcases.TC2_ValidLogin -->
+      <class name="com.automationexercise.testcases.TC1_RegisterUser">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercise.testcases.TC1_RegisterUser@e1de817]" started-at="2026-03-11T10:36:40 IST" name="setUp" finished-at="2026-03-11T10:36:43 IST" duration-ms="3327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="RegisterUser()[pri:0, instance:com.automationexercise.testcases.TC1_RegisterUser@e1de817]" started-at="2026-03-11T10:36:43 IST" name="RegisterUser" finished-at="2026-03-11T10:37:06 IST" duration-ms="23299" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[user account is not deleted expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: user account is not deleted expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at com.automationexercise.testcases.TC1_RegisterUser.RegisterUser(TC1_RegisterUser.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationexercise.testcases.TC1_RegisterUser@e1de817]" started-at="2026-03-11T10:37:06 IST" name="tearDown" finished-at="2026-03-11T10:37:07 IST" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationexercise.testcases.TC1_RegisterUser -->
+      <class name="com.automationexercise.testcases.TC7_VerifyTestCasesPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercise.testcases.TC7_VerifyTestCasesPage@2892dae4]" started-at="2026-03-11T10:39:41 IST" name="setUp" finished-at="2026-03-11T10:39:43 IST" duration-ms="2758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTestCases()[pri:0, instance:com.automationexercise.testcases.TC7_VerifyTestCasesPage@2892dae4]" started-at="2026-03-11T10:39:43 IST" name="verifyTestCases" finished-at="2026-03-11T10:39:54 IST" duration-ms="10330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTestCases -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationexercise.testcases.TC7_VerifyTestCasesPage@2892dae4]" started-at="2026-03-11T10:39:54 IST" name="tearDown" finished-at="2026-03-11T10:39:54 IST" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationexercise.testcases.TC7_VerifyTestCasesPage -->
+      <class name="com.automationexercise.testcases.TC8_VerifyProductsPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercise.testcases.TC8_VerifyProductsPage@355ce81c]" started-at="2026-03-11T10:39:54 IST" name="setUp" finished-at="2026-03-11T10:39:57 IST" duration-ms="2767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductsPage()[pri:0, instance:com.automationexercise.testcases.TC8_VerifyProductsPage@355ce81c]" started-at="2026-03-11T10:39:57 IST" name="verifyProductsPage" finished-at="2026-03-11T10:40:10 IST" duration-ms="13453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationexercise.testcases.TC8_VerifyProductsPage@355ce81c]" started-at="2026-03-11T10:40:10 IST" name="tearDown" finished-at="2026-03-11T10:40:12 IST" duration-ms="1954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationexercise.testcases.TC8_VerifyProductsPage -->
+      <class name="com.automationexercise.testcases.TC5_RegisterExistingMail">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercise.testcases.TC5_RegisterExistingMail@40cb8df7]" started-at="2026-03-11T10:39:15 IST" name="setUp" finished-at="2026-03-11T10:39:18 IST" duration-ms="2698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="existingRegister()[pri:0, instance:com.automationexercise.testcases.TC5_RegisterExistingMail@40cb8df7]" started-at="2026-03-11T10:39:18 IST" name="existingRegister" finished-at="2026-03-11T10:39:29 IST" duration-ms="11505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- existingRegister -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationexercise.testcases.TC5_RegisterExistingMail@40cb8df7]" started-at="2026-03-11T10:39:29 IST" name="tearDown" finished-at="2026-03-11T10:39:30 IST" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationexercise.testcases.TC5_RegisterExistingMail -->
+      <class name="com.automationexercise.testcases.TC4_LogoutUser">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercise.testcases.TC4_LogoutUser@2177849e]" started-at="2026-03-11T10:38:34 IST" name="setUp" finished-at="2026-03-11T10:38:37 IST" duration-ms="2721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="userLogout()[pri:0, instance:com.automationexercise.testcases.TC4_LogoutUser@2177849e]" started-at="2026-03-11T10:38:37 IST" name="userLogout" finished-at="2026-03-11T10:39:15 IST" duration-ms="38053" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[user is not logged in expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: user is not logged in expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at com.automationexercise.testcases.TC4_LogoutUser.userLogout(TC4_LogoutUser.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationexercise.testcases.TC4_LogoutUser@2177849e]" started-at="2026-03-11T10:39:15 IST" name="tearDown" finished-at="2026-03-11T10:39:15 IST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationexercise.testcases.TC4_LogoutUser -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 237.074 s <<< FAILURE! - in TestSuite
+RegisterUser(com.automationexercise.testcases.TC1_RegisterUser)  Time elapsed: 23.312 s  <<< FAILURE!
+java.lang.AssertionError: user account is not deleted expected [true] but found [false]
+	at com.automationexercise.testcases.TC1_RegisterUser.RegisterUser(TC1_RegisterUser.java:48)
+
+loginValid(com.automationexercise.testcases.TC2_ValidLogin)  Time elapsed: 37.9 s  <<< FAILURE!
+java.lang.AssertionError: Logged in as username is not visible expected [true] but found [false]
+	at com.automationexercise.testcases.TC2_ValidLogin.loginValid(TC2_ValidLogin.java:26)
+
+loginInvalid(com.automationexercise.testcases.TC3_InvalidLogin)  Time elapsed: 42.848 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.automationexercise.testcases.TC3_InvalidLogin.loginInvalid(TC3_InvalidLogin.java:24)
+
+userLogout(com.automationexercise.testcases.TC4_LogoutUser)  Time elapsed: 38.053 s  <<< FAILURE!
+java.lang.AssertionError: user is not logged in expected [true] but found [false]
+	at com.automationexercise.testcases.TC4_LogoutUser.userLogout(TC4_LogoutUser.java:26)
+

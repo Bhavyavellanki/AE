@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.automationexercise.testcases.TC4_LogoutUser">
+        <methods>
+          <include name="userLogoutS"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automationexercise.testcases.TC4_LogoutUser -->
+      <class name="com.automationexercise.testcases.TC3_InvalidLogin">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginInvalid"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automationexercise.testcases.TC3_InvalidLogin -->
+      <class name="com.automationexercise.testcases.TC9_SearchProducts">
+        <methods>
+          <include name="verifyTestCases"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automationexercise.testcases.TC9_SearchProducts -->
+      <class name="com.automationexercise.testcases.TC1_RegisterUser">
+        <methods>
+          <include name="tearDown"/>
+          <include name="RegisterUser"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automationexercise.testcases.TC1_RegisterUser -->
+      <class name="com.automationexercise.testcases.TC8_VerifyProductsPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyTestCases"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automationexercise.testcases.TC8_VerifyProductsPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

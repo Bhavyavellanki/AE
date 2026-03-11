@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.automationexercise.testcases.TC1_RegisterUser"/>
+      <class name="com.automationexercise.testcases.TC2_ValidLogin"/>
+      <class name="com.automationexercise.testcases.TC3_InvalidLogin"/>
+      <class name="com.automationexercise.testcases.TC4_LogoutUser"/>
+      <class name="com.automationexercise.testcases.TC5_RegisterExistingMail"/>
+      <class name="com.automationexercise.testcases.TC6_Contactus"/>
+      <class name="com.automationexercise.testcases.TC7_VerifyTestCasesPage"/>
+      <class name="com.automationexercise.testcases.TC8_VerifyProductsPage"/>
+      <class name="com.automationexercise.testcases.TC9_SearchProducts"/>
+      <class name="com.automationexercise.testcases.TC10_VerifySubscriptionPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">236,634</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.automationexercise.testcases.TC1_RegisterUser</td><td><a href="#m0">RegisterUser</a></td><td rowspan="1">1773205603563</td><td rowspan="1">23299</td></tr><tr class="failedodd"><td rowspan="1">com.automationexercise.testcases.TC2_ValidLogin</td><td><a href="#m1">loginValid</a></td><td rowspan="1">1773205629990</td><td rowspan="1">37898</td></tr><tr class="failedeven"><td rowspan="1">com.automationexercise.testcases.TC3_InvalidLogin</td><td><a href="#m2">loginInvalid</a></td><td rowspan="1">1773205671165</td><td rowspan="1">42848</td></tr><tr class="failedodd"><td rowspan="1">com.automationexercise.testcases.TC4_LogoutUser</td><td><a href="#m3">userLogout</a></td><td rowspan="1">1773205717144</td><td rowspan="1">38053</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.automationexercise.testcases.TC10_VerifySubscriptionPage</td><td><a href="#m4">VerifySubscription</a></td><td rowspan="1">1773205831468</td><td rowspan="1">5088</td></tr><tr class="passedodd"><td rowspan="1">com.automationexercise.testcases.TC5_RegisterExistingMail</td><td><a href="#m5">existingRegister</a></td><td rowspan="1">1773205758273</td><td rowspan="1">11505</td></tr><tr class="passedeven"><td rowspan="1">com.automationexercise.testcases.TC6_Contactus</td><td><a href="#m6">contactus</a></td><td rowspan="1">1773205773039</td><td rowspan="1">7543</td></tr><tr class="passedodd"><td rowspan="1">com.automationexercise.testcases.TC7_VerifyTestCasesPage</td><td><a href="#m7">verifyTestCases</a></td><td rowspan="1">1773205783761</td><td rowspan="1">10330</td></tr><tr class="passedeven"><td rowspan="1">com.automationexercise.testcases.TC8_VerifyProductsPage</td><td><a href="#m8">verifyProductsPage</a></td><td rowspan="1">1773205797267</td><td rowspan="1">13453</td></tr><tr class="passedodd"><td rowspan="1">com.automationexercise.testcases.TC9_SearchProducts</td><td><a href="#m9">searchProducts</a></td><td rowspan="1">1773205815066</td><td rowspan="1">11772</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">com.automationexercise.testcases.TC1_RegisterUser#RegisterUser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: user account is not deleted expected [true] but found [false]
+	at com.automationexercise.testcases.TC1_RegisterUser.RegisterUser(TC1_RegisterUser.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.automationexercise.testcases.TC2_ValidLogin#loginValid</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Logged in as username is not visible expected [true] but found [false]
+	at com.automationexercise.testcases.TC2_ValidLogin.loginValid(TC2_ValidLogin.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.automationexercise.testcases.TC3_InvalidLogin#loginInvalid</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.automationexercise.testcases.TC3_InvalidLogin.loginInvalid(TC3_InvalidLogin.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.automationexercise.testcases.TC4_LogoutUser#userLogout</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: user is not logged in expected [true] but found [false]
+	at com.automationexercise.testcases.TC4_LogoutUser.userLogout(TC4_LogoutUser.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.automationexercise.testcases.TC10_VerifySubscriptionPage#VerifySubscription</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.automationexercise.testcases.TC5_RegisterExistingMail#existingRegister</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.automationexercise.testcases.TC6_Contactus#contactus</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.automationexercise.testcases.TC7_VerifyTestCasesPage#verifyTestCases</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.automationexercise.testcases.TC8_VerifyProductsPage#verifyProductsPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.automationexercise.testcases.TC9_SearchProducts#searchProducts</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
